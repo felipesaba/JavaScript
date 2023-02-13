@@ -1,0 +1,34 @@
+*,
+body {
+    box-sizing: border-box;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 333px;
+    max-height: 333px;
+}
+.container h2 {
+   
+    align-self: center;
+}
+.square {
+    border: none;
+    margin: 2px;
+    min-height: 100px;
+    min-width: 100px;
+}
+.square:hover {
+    background-color: rgb(222, 224, 226);
+}
