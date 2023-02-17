@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+}
+
+#image-track > .image{
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center center;
+}
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%; transform: translate(0%, -50%); /*translate para mover o elemento para cima metade da sua própria altura, de modo que o centro vertical do elemento fique alinhado com o centro vertical do contêiner pai. A unidade "0%" define que não há deslocamento horizontal a ser aplicado.*/
+}
